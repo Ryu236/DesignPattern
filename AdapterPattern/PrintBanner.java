@@ -11,4 +11,5 @@ public class PrintBanner extends Banner implements Print {
   public void printStrong() {
     showWithAster();
   }
+
 }

@@ -1,6 +1,7 @@
 public class Banner {
   
   private String string;
+
   public Banner(String string) {
     this.string = string;
   }
@@ -12,4 +13,5 @@ public class Banner {
   public void showWithAster() {
     System.out.println("*" + string + "*");
   }
+
 }
