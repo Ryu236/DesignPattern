@@ -1,4 +1,4 @@
-import framework;
+import framework.*;
 
 public class MessageBox implements Product {
   private char decochar; 

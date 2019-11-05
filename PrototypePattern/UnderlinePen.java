@@ -1,4 +1,4 @@
-import framework;
+import framework.*;
 
 public class UnderlinePen implements Product {
   private char ulchar;
