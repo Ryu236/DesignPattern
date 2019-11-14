@@ -11,7 +11,7 @@ public class Main {
     Factory factory = Factory.getFactory(args[0]);
 
     Link asahi = factory.createLink("朝日新聞", "https://www.asahi.com/");
-    Link yomiuri = facotry.createLink("読売新聞", "https://www.yomiuri.co.jp/");
+    Link yomiuri = factory.createLink("読売新聞", "https://www.yomiuri.co.jp/");
 
     Link us_yahoo = factory.createLink("Yahooa!", "https://www.yahoo.com/");
     Link jp_yahoo = factory.createLink("Yahoo!Japan", "https://www.yahoo.co,jp/");
