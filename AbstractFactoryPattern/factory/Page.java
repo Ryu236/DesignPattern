@@ -15,7 +15,7 @@ public abstract class Page {
   }
   public void output() {
     try {
-      Stirng filename = title + ".html";
+      String filename = title + ".html";
       Writer writer = new FileWriter(filename);
       writer.write(this.makeHTML());
       writer.close();
@@ -24,5 +24,5 @@ public abstract class Page {
       e.printStackTrace();
     }
   }
-  public abstract String makeHTMK();
+  public abstract String makeHTML();
 }

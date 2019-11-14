@@ -13,8 +13,8 @@ public class Main {
     Link asahi = factory.createLink("朝日新聞", "https://www.asahi.com/");
     Link yomiuri = factory.createLink("読売新聞", "https://www.yomiuri.co.jp/");
 
-    Link us_yahoo = factory.createLink("Yahooa!", "https://www.yahoo.com/");
-    Link jp_yahoo = factory.createLink("Yahoo!Japan", "https://www.yahoo.co,jp/");
+    Link us_yahoo = factory.createLink("Yahoo!", "https://www.yahoo.com/");
+    Link jp_yahoo = factory.createLink("Yahoo!Japan", "https://www.yahoo.co.jp/");
     Link excite = factory.createLink("Excite", "https://www.excite.com/");
     Link google = factory.createLink("Google", "https://www.google.com/");
 
