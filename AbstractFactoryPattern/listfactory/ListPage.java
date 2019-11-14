@@ -1,6 +1,6 @@
 package listfactory;
 import factory.*;
-import jaca.util.Iterator;
+import java.util.Iterator;
 
 public class ListPage extends Page {
   public ListPage(String title, String author) {
